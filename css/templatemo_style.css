@@ -624,21 +624,7 @@ hr {
   visibility: visible;
 }
 
-#service-1 {
-  background-color: #1abc9c;
-}
 
-#service-2 {
-  background-color: #e67e22;
-}
-
-#service-3 {
-  background-color: #3498db;
-}
-
-#service-4 {
-  background-color: #2ecc71;
-}
 
 .portfolio-item {
   margin-bottom: 30px;
@@ -964,25 +950,25 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 #service-1 {
   background:url(../images/zzz1.png) no-repeat center;
   background-size: cover;
-  width: 262.5px; height: 304px;
+  width: 100%; height:304px;
 }
 
 #service-2 {
   background:url(../images/zzz2.png) no-repeat center;
   background-size: cover;
-  width: 262.5px; height: 304px;
+  width: 100%; height:304px;
 }
 
 #service-3 {
   background:url(../images/zzz3.png) no-repeat center;
   background-size: cover;
-  width: 262.5px; height: 304px;
+  width: 100%; height:304px;
 }
 
 #service-4 {
   background:url(../images/zzz4.png) no-repeat center;
   background-size: cover;
-  width: 262.5px; height: 304px;
+  width: 100%; height:304px;
 }
 
 
@@ -1080,3 +1066,5 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 } 
 
 .xcv{font-size: 0.9rem;clear: both; padding-top: 5px;}
+.big img{transition: 0.5s;}
+.big:hover img{transform: scale(1.2);}
