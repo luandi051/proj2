@@ -18,18 +18,20 @@
 #sub_header .lng{width:100%;display: flex;flex-wrap:nowrap;justify-content:center;line-height:3em; padding-top: 50px;}
 #sub_header .lng li a{padding:0 50px}
 #sub_header .lng li.on{color:#000000}
-#sub_header .lng li.on:after{content: '';display: block;height: 3px;width:100%;background-color: #4F2E8C;}
+#sub_header .lng li.on:after{content: '';display: block;height: 3px;width:100%;background-color: #62BFE7;}
 
 
 #sub_header .lng{width:100%;display: flex;flex-wrap:nowrap;justify-content:center;line-height:3em; padding-top: 50px;}
 #sub_header .lng li a{padding:0 50px}
-#sub_header .lng li.on{color:#000000}
+#sub_header .lng li.on{color:#62BFE7}
 
-#sub_header .lng li:before{width:0;height:3px;background-color:#4F2E8C;
+/*#sub_header .lng li:after{width:0;height:3px;background-color:#62BFE7;
   content: '';display:block;transition:0.5s
-}
-#sub_header .lng li:hover:before{width:100%}
-#sub_header .lng li a:hover{color:#000000;}
+}*/
+
+#sub_header .lng li:hover:after{width:100%}
+
+#sub_header .lng li a:hover{color:#62BFE7;font-weight: 300;}
 
 h3{font-size:1.8rem;color:#444;font-weight:500;font-family: 'Noto Sans KR', sans-serif;letter-spacing: -3px;text-align: center;}
 h4{font-size:1rem;color:#888;font-weight:300;font-family: 'Noto Sans KR', sans-serif;letter-spacing: 0px;
@@ -88,7 +90,7 @@ a:hover {
 }
 
 #sec10 .article_box{padding-top:0;}
-#sec10 .thumb {display:block;width:calc(33.3% - 10px);float:left;margin-right:10px}    
+#sec10 .thumb {display:block;width:calc(33.3% - 10px);float:left;margin-right:10px; height: 400px;}    
 #sec10 .thumb a:last-child{margin-right:0}             
 #sec10 .thumb a img{width:100%;}
 
