@@ -27,7 +27,7 @@ button{outline:0}
 /*사이트맵 팝업의 네비*/
 .pop_nav{width:100%;height:30%;
       background-color:rgba(255,255,255,0.7);
-      position:fixed;top:196px;left: 0;z-index:99998;   display: none;  }
+      position:fixed;top:;left: 0;z-index:99998;   display: none;  }
 .pop_nav .depth1 {display: flex;flex-wrap:nowrap;justify-content:space-between;}			 
 .pop_nav .depth1>li{padding-top:20px;width:20%;box-sizing: border-box;}
 .pop_nav .depth1 >li:after{
@@ -40,7 +40,7 @@ button{outline:0}
 .pop_nav .depth1 >li:nth-child(3):after{left:74.49%}
 .pop_nav .depth1 >li:nth-child(4):after{left:99.49%}
 .pop_nav .depth1>li > a{display: block;font-weight: 500;line-height: 3em;font-size: 1.0rem;padding-left:50px}
-.pop_nav .depth1>li:hover > a{color:#5B5A8C}
+.pop_nav .depth1>li:hover > a{color:#4F2E8C}
 .pop_nav .depth1>li ul {line-height: 3em;}
 .pop_nav .depth1>li ul a {display: block;}                  
 .pop_nav .depth1 >li li{padding-left:50px;position: relative;box-sizing: border-box;transition: 0.5s;}
@@ -84,7 +84,7 @@ button{outline:0}
 #nav1 .site_map	{margin-bottom:30px;position:absolute;z-index:99999;transition: 0.5s;right:5px;
                   width:30px;height:30px}
 #nav1 .site_map span{position:absolute;height:20px;top:10px;
-      background-color:#5B5A8C;width:2px; transition: 0.5s; }
+      background-color:#4F2E8C;width:2px; transition: 0.5s; }
 #nav1 .site_map span:nth-child(1){left:0}
 #nav1 .site_map span:nth-child(3){left:16px}
 #nav1 .site_map span:nth-child(2){height:10px;
@@ -97,7 +97,7 @@ button{outline:0}
 #nav1 .lang_btn{position:absolute;right:0px;top:100px;}
 #nav1 button {display:block;margin-bottom:10px;
             border:1px solid #ccc; padding:10px;background:none}            		
-#nav1 button:hover{border-color:#5B5A8C}        
+#nav1 button:hover{border-color:#4F2E8C;}        
 #header .mo_lang_btn{display: none;}
 
 
