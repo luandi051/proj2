@@ -248,6 +248,7 @@ hr {
 .pop_nav .depth1 >li:nth-child(3):after{left:74.49%}
 .pop_nav .depth1 >li:nth-child(4):after{left:99.49%}
 .pop_nav .depth1>li > a{display: block;font-weight: 500;line-height: 3em;font-size: 1.0rem;text-align: center;}
+.pop_nav .depth1>li > a{display: block;font-weight: 500;line-height: 3em;font-size: 1.0rem;padding-left:50px}
 .pop_nav .depth1>li:hover > a{color:#4F2E8C}
 .pop_nav .depth1>li ul {line-height: 3em;}
 .pop_nav .depth1>li ul a {display: block;}                  
@@ -1211,7 +1212,7 @@ a:hover {
 .pop_nav .depth1 >li li:hover  {color:#fff}
 .pop_nav .depth1 >li li:hover:before {width:100%;color:#fff}
 
-@media screen and (max-width: 767px)
+/*@media screen and (max-width: 767px)
 .logo-wrapper {
     background-size: contain;
-}
+}*/
