@@ -1,0 +1,163 @@
+
+section{padding:0px 100px;background:#fff;padding-bottom:100px;}
+section:after{content: '';display: block;clear: both;}
+
+
+
+
+/*********************section3****************************/
+#section3 > div{float:left;width:50%;}
+
+#section3 .sec3_3 img {width: 100%;}
+#section3 .sec3_3 .panel{display: none;}
+#section3 .sec3_4 {box-sizing:border-box;padding-left:30px; padding-top:100px;}
+#section3 .sec3_4 li{display: table;font-size: 1.0rem;position: relative;}
+#section3 .sec3_4 li span{display: table-cell;height:90px;vertical-align: middle;}
+
+#section3 .sec3_4 li:before{content: '';display: block;width:60px;height:2px;background-color:  #eee;
+                   position: absolute;top:calc(50% - 1px);left:-30px;}
+#section3 .sec3_4 li:after{content: '';display: block;width:8px;height:8px;
+             border-radius:50%; background-color:  #222;position: absolute;top:calc(50% - 4px);left:30px;}
+
+#section3 .sec3_4 li a:before{content: '';display: block;width:0;height:2px;background-color:   #4F2E8C;
+                position: absolute;top:calc(50% - 1px);left:-30px;transition: 0.5s;}
+#section3 .sec3_4 li a:after{content: '';display: block;width:8px;height:8px;
+          border-radius:50%; border:0.5px solid transparent;position: absolute;top:calc(50% - 4px);left:28px;
+          transform: scale(1);transition: 0.5s;}
+#section3 .sec3_4 li.on a:before{content: '';display: block;width:60px;height:2px;background-color:   #62BFE7;
+                position: absolute;top:calc(50% - 1px);left:-30px;}
+#section3 .sec3_4 li.on a:after{content: '';display: block;width:24px;height:24px;
+          border-radius:50%; border-color: #62BFE7 ;position: absolute;top:calc(50% - 12px);left:22px;
+          }
+#section3 .sec3_4 li .date{padding-right:30px;padding-left:50px}
+#section3 .sec3_4 li .news_subj{font-size: 0.9rem;width:12rem;padding-right:30px;}
+#section3 .sec3_4 li .news_cont{font-size: 0.9rem;}
+
+
+
+
+
+                           
+@media all and (max-width:1350px) {
+ h3 {
+      font-size: 1.7rem;
+    /*  color: #222;
+      font-weight: 500;
+      font-family: 'Quicksand', sans-serif;
+      letter-spacing: -3px;*/
+   }
+   #section3 .sec3_1 {
+     /* background: #eee;
+      box-sizing: border-box;
+      padding: 0 30px;*/
+  }
+  #section3 .sec3_1 h3 {
+   margin-top: 30px;
+  }
+#section3 .sec3_1 p {
+   font-size: 1.7rem;
+   color: #222;
+   letter-spacing: -1px;
+ }   
+} /* 1350 */
+
+@media all and (max-width:1024px) {
+   h4 {
+     /* font-size: 1rem;
+      color: #888;
+      font-weight: 300;
+      font-family: 'Quicksand', sans-serif;
+      letter-spacing: 0px;
+      */
+      margin-bottom: 15px;
+  }
+
+   section {
+    /*  background: #fff;    */
+      padding: 0px;
+      padding-bottom: 100px;
+  }
+
+ #section3 .sec3_4 li {
+   display: table;
+   font-size: 0.8rem;
+   position: relative;
+} 
+#section3 .sec3_4 li:before {
+  /* content: '';
+   display: block;
+   width: 60px;
+   height: 2px;
+   background-color: #eee;
+   position: absolute;
+   top: calc(50% - 1px);
+   left: -30px;*/
+   display: none;
+}
+#section3 .sec3_4 li:after {
+ /*  content: '';
+   display: block;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background-color: #222;
+   position: absolute;
+   top: calc(50% - 4px);
+   left: 30px;*/
+   display: none;
+}
+#section3 .sec3_4 li.on a:before {
+  /* content: '';
+   display: block;
+   width: 60px;
+   height: 2px;
+   background-color: #9c2033;
+   position: absolute;
+   top: calc(50% - 1px);
+   left: -30px;*/
+   display: none;
+}
+#section3 .sec3_4 li.on a:after {
+ /*  content: '';
+   display: block;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   border-color: #9c2033;
+   position: absolute;
+   top: calc(50% - 12px);
+   left: 22px;*/
+   display: none;
+}
+#section3 .sec3_4 li span {
+   /*   display: table-cell;
+      height: 90px;
+      vertical-align: middle;*/
+      height: auto; 
+   }
+#section3 .sec3_4 li .date {
+   padding-right: 5px;
+   padding-left: 0px;
+}
+#section3 .sec3_4 li .news_subj {
+   font-size: 0.7rem;
+   width: auto;
+   padding-right: 5px;
+}
+#section3 .sec3_4 li .news_cont {
+   font-size: 0.7rem;
+}
+
+/*   display: block;
+   
+   background-color: #9c2033;
+   
+   font-weight: 300;
+   line-height: 2rem;
+   transform: translate(0,15px);
+   padding-bottom: 5px;
+   
+   color: #fff;*/
+}
+
+

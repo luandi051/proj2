@@ -12,6 +12,7 @@ $(function(){
             open_popnav=1
         }
        }); 
+       
     
     //패밀리사이트
     var open=1;
