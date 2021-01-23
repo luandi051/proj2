@@ -502,6 +502,14 @@ hr {
 .shop{display: none;}
 .col-md-7{display: none;}
 #footer .footer2{display: none;}
+.pop_nav .depth1>li > a {
+  display: block;
+  font-weight: 100;
+  line-height: 2em;
+  font-size: 1.0rem;
+  text-align: center;
+}
+
 }
 
 @media screen and (max-height: 500px) {
