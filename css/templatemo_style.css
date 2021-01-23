@@ -487,8 +487,6 @@ hr {
   .main-menu ul li:last-child { margin-right: 20px; }
 }
 @media screen and (max-width: 767px) {
-
-  
   .site-header {
     margin-top: 40px;
   }
@@ -501,6 +499,9 @@ hr {
   .flexslider {
     margin-top: 80px;
   }
+.shop{display: none;}
+.col-md-7{display: none;}
+#footer .footer2{display: none;}
 }
 
 @media screen and (max-height: 500px) {
@@ -1161,7 +1162,7 @@ a:hover {
 .big:hover img{transform: scale(1.2);}
 
 
-.big img{transition: 0.5s;}
+.big img{transition: 0.5s;width: 100%;}
 .big:hover img{transform: scale(1.1);}
 
 
@@ -1175,3 +1176,4 @@ a:hover {
     .footer_cont{width: 100%;}
 
 }
+
