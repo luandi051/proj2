@@ -294,7 +294,7 @@ body.blurred > * {
 }
 
 #nav1 .site_map {
- transform: translateY(-25px);
+ transform: translateY(-20px);
 }
 
   .pop_nav .depth1 {
@@ -351,7 +351,7 @@ body.blurred > * {
 .circle_box{background:url(../images/tiara.jpg);
      position:relative;
      background-size: cover;}
-.circle_box p{color: #222;font-weight: 350;} 
+.circle_box p{color: #222;font-weight: 400;} 
 
 
 .gold{background-color:rgba(255,255,255,0.5);padding:50px 0}
