@@ -504,14 +504,14 @@ hr {
 #footer .footer2{display: none;}
 
 .footer1 .bot_logo{display: none;}
-.big img {width:60%;height: 450px;}
+.big img {width:60%;height: 300px;}
 
 .pop_nav .depth1>li > a {
   display: block;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1em;
-  font-size: 0.5rem;
-  text-align: center;
+  font-size: 1rem;
+ 
 }
 
  
