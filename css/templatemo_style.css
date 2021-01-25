@@ -486,7 +486,7 @@ hr {
   }
   .main-menu ul li:last-child { margin-right: 20px; }
 }
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
   .site-header {
     margin-top: 40px;
   }
@@ -502,16 +502,12 @@ hr {
 .shop{display: none;}
 .col-md-7{display: none;}
 #footer .footer2{display: none;}
-.pop_nav .depth1>li > a {
-  display: block;
-  font-weight: 100;
-  line-height: 1em;
-  font-size: 1.0rem;
-  text-align: center;
-}
-
 
 .footer1 .bot_logo{display: none;}
+ 
+
+
+
 
 
 

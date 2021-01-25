@@ -273,8 +273,54 @@ body.blurred > * {
 .ring:hover{color: #62BFE7;font-size: 1.2rem;}
 .wg {color: #62BFE7;}
 
+@media all and (max-width: 1000px) {
+  #sec1 .circle_box .box1 {
+    top: 100px;    left: 50px;
+}
+}
+@media all and (max-width: 767px) {
+
+  #sub_header .subtitle_box h2 {
+   display: none;
+}
+.subtitle_image{display: none}
+#sub_header{display: none}
+#logo{display: none}
+#sub1_2{margin-top: 100px;}
 
 
+.circle_box{background:url(../images/tiara.jpg);
+     position:relative;
+     background-size: cover;}
+
+
+.gold{background-color:rgba(255,255,255,0.5);padding:50px 0}
+.circle_center{display: none}
+#sec1 .circle_box .box {
+  position: static;
+  z-index:1;
+  text-align:center;
+}
+
+#sec1 .circle_box .box1 {
+  padding: 70px;
+}
+
+#sec1 .circle_box .box2 {
+  padding-bottom: 70px;
+}
+
+#sec1 .circle_box .box3 {
+  padding-bottom: 70px;
+}
+
+#sec1 .circle_box .box4 {
+  padding-bottom: 70px;
+}
+
+#ttt{display: none}
+
+}
 
 
 
