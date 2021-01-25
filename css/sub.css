@@ -355,6 +355,7 @@ body.blurred > * {
 
 
 .gold{background-color:rgba(255,255,255,0.5);padding:50px 0}
+
 .circle_center{display: none}
 #sec1 .circle_box .box {
   position: static;
@@ -381,11 +382,42 @@ body.blurred > * {
 #ttt{display: none}
 .sec3_3{display: none}
 
-#section3{background:url(../images/hhhh.jpg);
+
+#section3{background:url(../images/hhhh.png);
   position:relative;
   background-size: cover;}
 
 
+  #section3 .sec3_4 li .date {
+    padding:50px;
+}
+.asf{display: none}
+.tabs{width: 450PX;}
+
+.gogo{background:url(../images/map.png);
+  position:relative;
+  background-size: cover;}
+
+  #servi{padding-top:20px;}
+  #sec10 .thumb {
+    display: block;
+    width: calc(33.3% - 10px);
+    float: left;
+    margin-right: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.boxbox3{padding: 100px;text-align: center;}
+
+.toto{background:url(../images/qqq.png);
+  position:relative;
+  background-size: cover;}
+
+.dbdb{background:url(../images/d1.png);
+    position:relative;
+    background-size: cover;}
+  
 
 
 }
