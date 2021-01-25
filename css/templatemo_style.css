@@ -677,7 +677,7 @@ hr {
   -moz-border-radius: 50%;
 }
 .team-member .member-thumb img {
-  width: 100%;
+  width: 100%; background-color: #fff;
 }
 .team-member .member-thumb .team-overlay {
   position: absolute;
