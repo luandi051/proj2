@@ -342,6 +342,8 @@ body.blurred > * {
 #sub_header{display: none}
 #sub1_2{margin-top: 100px;}
 
+
+
 .circle_box{background:url(../images/tiara.jpg);
      position:relative;
      background-size: cover;}
@@ -371,7 +373,7 @@ body.blurred > * {
   position:relative;
   background-size: cover;}
   #section3 .sec3_4 li .date {
-    padding:50px;
+    padding:30px; font-weight: 500; font-size: 1.2rem;
 }
 .asd{display: none}
 .asf{display: none}
@@ -398,7 +400,8 @@ body.blurred > * {
 .dbdb{background:url(../images/diamonds-4231177__340.webp);
     position:relative;
     background-size: cover;}
-  
+
+
 
 
 }
