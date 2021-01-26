@@ -292,11 +292,9 @@ body.blurred > * {
     z-index: 99998;
     display: none;
 }
-
 #nav1 .site_map {
  transform: translateY(-20px);
 }
-
   .pop_nav .depth1 {
     display: flex;
     flex-wrap: wrap;
@@ -307,7 +305,6 @@ body.blurred > * {
     width: 100%;
     box-sizing: border-box;
 }
-
 .pop_nav .depth1>li ul a {
   display: block;
   padding: 0 20px;
@@ -338,56 +335,41 @@ body.blurred > * {
   height: 100%;
   top: 0;
 }
-
   #sub_header .subtitle_box h2 {
    display: none;
 }
 .subtitle_image{display: none}
 #sub_header{display: none}
-
 #sub1_2{margin-top: 100px;}
-
 
 .circle_box{background:url(../images/tiara.jpg);
      position:relative;
      background-size: cover;}
 .circle_box p{color: #222;font-weight: 400;} 
-
-
 .gold{background-color:rgba(255,255,255,0.5);padding:50px 0}
-
 .circle_center{display: none}
 #sec1 .circle_box .box {
   position: static;
   z-index:1;
   text-align:center;
 }
-
 #sec1 .circle_box .box1 {
   padding: 70px;
 }
-
 #sec1 .circle_box .box2 {
   padding-bottom: 70px;
 }
-
 #sec1 .circle_box .box3 {
   padding-bottom: 70px;
 }
-
 #sec1 .circle_box .box4 {
   padding-bottom: 70px;
 }
-
 #ttt{display: none}
 .sec3_3{display: none}
-
-
 #section3{background:url(../images/hhhh.png);
   position:relative;
   background-size: cover;}
-
-
   #section3 .sec3_4 li .date {
     padding:50px;
 }
@@ -395,17 +377,6 @@ body.blurred > * {
 .asf{display: none}
 .tabs{width: 450PX;}
 .tabs > li > a {font-size: 1.0rem;}
-
-
-
-
-
-
-
-}
-
-
-
 
 .gogo{background:url(../images/map.png);
   position:relative;
@@ -423,9 +394,6 @@ body.blurred > * {
 
 .boxbox3{padding: 100px;text-align: center;}
 
-.toto{background:url(../images/qqq.png);
-  position:relative;
-  background-size: cover;}
 
 .dbdb{background:url(../images/d1.png);
     position:relative;

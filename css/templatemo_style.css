@@ -966,7 +966,7 @@ a:hover {
 
 }
 
-  .ui-btn2{ display: block;
+ .ui-btn2{ display: block;
       width:30px;height:30px;
       text-indent: 11px;
       font-size: 1rem;
@@ -974,7 +974,7 @@ a:hover {
       border: 1px solid #ddd;
       background-color: #62BFE7;
       color: #888;border:none;
-      position: fixed;right:60px;bottom:10px;text-indent: -99999px;}
+      position: fixed;right:60px;bottom:30px;text-indent: -99999px;}
       
       .ui-btn2:before, .ui-btn2:after {
             content: '';
