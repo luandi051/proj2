@@ -26,7 +26,7 @@ button{outline:0}
 .link_on{color: #62BFE7 !important;font-weight: 500;}
 /*사이트맵 팝업의 네비*/
 .pop_nav{width:100%;height:30%;
-      background-color:rgba(255,255,255,0.7);
+      background-color:rgba(201, 234, 247, 0.7);
       position:fixed;top:164px;left: 0;z-index:99998;   display: none;  }
 .pop_nav .depth1 {display: flex;flex-wrap:nowrap;justify-content:space-between;}			 
 .pop_nav .depth1>li{padding-top:20px;width:20%;box-sizing: border-box;}
@@ -35,10 +35,10 @@ button{outline:0}
                   position: absolute;height:100%;
                   top:0
                   }
-.pop_nav .depth1 >li:nth-child(1):after{left:24.49%}
-.pop_nav .depth1 >li:nth-child(2):after{left:49.99%}
-.pop_nav .depth1 >li:nth-child(3):after{left:74.49%}
-.pop_nav .depth1 >li:nth-child(4):after{left:99.49%}
+.pop_nav .depth1 >li:nth-child(1):after{left:23%}
+.pop_nav .depth1 >li:nth-child(2):after{left:48%}
+.pop_nav .depth1 >li:nth-child(3):after{left:75%}
+.pop_nav .depth1 >li:nth-child(4):after{left:100%}
 .pop_nav .depth1>li > a{display: block;font-weight: 500;line-height: 3em;font-size: 1.0rem; text-align: center;}
 .pop_nav .depth1>li:hover > a{color:#4F2E8C}
 .pop_nav .depth1>li ul {line-height: 3em;}
@@ -190,7 +190,7 @@ button{outline:0}
       border: 1px solid #ddd;
       background-color: #62BFE7;
       color: #888;border:none;
-      position: fixed;right:60px;bottom:10px;text-indent: -99999px;}
+      position: fixed;right:60px;bottom:30px;text-indent: -99999px;}
       
       .ui-btn2:before, .ui-btn2:after {
             content: '';
@@ -278,4 +278,11 @@ button{outline:0}
         }
         
     } /* max:1024px */
+
+    @media all and (max-width:1024px) {
+
+        .pop_nav {
+            width: 100%;
+            height: 40%;}
+    }
 

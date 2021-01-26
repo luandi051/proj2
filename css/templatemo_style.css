@@ -352,12 +352,13 @@ hr {
 .site_map.on span:nth-child(1){transform: rotate(495deg);left:10px}
 .site_map.on span:nth-child(3){transform: rotate(585deg);left:10px}
 .site_map.on span:nth-child(2){height:0}
-
+.footer3{display: none;}
 
 
 .top_icon{float:right;
   width:215px;height:75px;position: relative;}
 .top_icon a{display: inline-block; padding-top: 22px;margin-left: 5px;}
+
 
 /*.menu-responsive {
   display: none;
@@ -486,7 +487,7 @@ hr {
   }
   .main-menu ul li:last-child { margin-right: 20px; }
 }
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
   .site-header {
     margin-top: 40px;
   }
@@ -502,16 +503,68 @@ hr {
 .shop{display: none;}
 .col-md-7{display: none;}
 #footer .footer2{display: none;}
-.pop_nav .depth1>li > a {
-  display: block;
-  font-weight: 100;
-  line-height: 1em;
-  font-size: 1.0rem;
-  text-align: center;
+
+.footer1 .bot_logo{display: none;}
+.big img {width:60%;height: 300px;}
+.footer3{display: block;padding:10px;}
+
+.pop_nav {
+  width: 100%;
+  height: 60%;}
+
+
+/*.pop_nav {
+  width: 100%;
+  height: 100%;
+  overflow:auto;
+  background-color: rgba(255,255,255,0.7);
+  position: fixed;
+  top: 100px;
+  left: 0;
+  z-index: 99998;
+  display: none;
+}
+.pop_nav .depth1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pop_nav .depth1>li {
+  padding-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-
-
+.pop_nav .depth1>li ul a {
+display: block;
+padding: 0 20px;
+}
+.pop_nav .depth1>li > a {
+display: block;
+font-weight: 500;
+line-height: 3em;
+font-size: 1.0rem;
+text-align: left;
+}
+.pop_nav .depth1>li ul {
+line-height: 1em;
+}
+.pop_nav .depth1 >li li {
+position: relative;
+box-sizing: border-box;
+transition: 0.5s;
+text-align: left;
+float: left;
+}
+.pop_nav .depth1 >li:after {
+content: '';
+display: none;
+width: 1px;
+background-color: #ddd;
+position: absolute;
+height: 100%;
+top: 0;
+}*/
 
 
 }
@@ -683,7 +736,7 @@ hr {
   -moz-border-radius: 50%;
 }
 .team-member .member-thumb img {
-  width: 100%;
+  width: 100%; background-color: #fff;
 }
 .team-member .member-thumb .team-overlay {
   position: absolute;
@@ -917,7 +970,7 @@ a:hover {
 
 }
 
-  .ui-btn2{ display: block;
+ .ui-btn2{ display: block;
       width:30px;height:30px;
       text-indent: 11px;
       font-size: 1rem;
@@ -925,7 +978,7 @@ a:hover {
       border: 1px solid #ddd;
       background-color: #62BFE7;
       color: #888;border:none;
-      position: fixed;right:60px;bottom:10px;text-indent: -99999px;}
+      position: fixed;right:60px;bottom:30px;text-indent: -99999px;}
       
       .ui-btn2:before, .ui-btn2:after {
             content: '';
