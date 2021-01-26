@@ -506,7 +506,7 @@ hr {
 .footer1 .bot_logo{display: none;}
 .big img {width:60%;height: 300px;}
 
-.pop_nav {
+/*.pop_nav {
   width: 100%;
   height: 100%;
   overflow:auto;
@@ -557,7 +557,7 @@ background-color: #ddd;
 position: absolute;
 height: 100%;
 top: 0;
-}
+}*/
 
 
 }
