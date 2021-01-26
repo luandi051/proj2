@@ -352,12 +352,13 @@ hr {
 .site_map.on span:nth-child(1){transform: rotate(495deg);left:10px}
 .site_map.on span:nth-child(3){transform: rotate(585deg);left:10px}
 .site_map.on span:nth-child(2){height:0}
-
+.footer3{display: none;}
 
 
 .top_icon{float:right;
   width:215px;height:75px;position: relative;}
 .top_icon a{display: inline-block; padding-top: 22px;margin-left: 5px;}
+
 
 /*.menu-responsive {
   display: none;
@@ -505,6 +506,8 @@ hr {
 
 .footer1 .bot_logo{display: none;}
 .big img {width:60%;height: 300px;}
+.footer3{display: block;padding:10px;}
+
 
 /*.pop_nav {
   width: 100%;
